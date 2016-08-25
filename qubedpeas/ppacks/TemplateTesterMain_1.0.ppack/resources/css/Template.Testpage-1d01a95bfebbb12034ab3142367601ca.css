@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.template {
+    display: none;
+}
+.viewHolder {
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: both;
+    padding: 10px;
+    position: relative;
+}
+.viewHolder>* {
+    resize: none;
+}
+
+.testLinksSection {
+    margin-top: 50px;
+    background: #f2f2f2;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 300px;
+}
+.testLinksTitle {
+    background-color: #638A58;
+    color: #F2F2F2;
+    padding: 6px;
+    padding-top: 10px;
+    padding-top: 10px;
+
+    font-size: 150%;
+    /*text-align: center;*/
+    font-family: 'Alef', sans-serif;
+
+    border-top-color: #F15A24;
+    border-top-style: solid;
+    border-top-width: 7px;
+
+
+
+    background: rgba(4, 20, 7, 0.60);
+}
+
+
+.testLinkList {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    margin-top: 2px;
+    padding: 8px;
+    padding-top: 0;
+    position: absolute;
+    top: 53px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.testLinkList.withToolbar {
+    top: 81px;
+}
+.testLinksHeader {
+    font-family: 'Alef', sans-serif;
+    font-size: 140%;
+    color: #507048;
+
+    text-overflow: ellipsis;
+
+    max-width: 90%;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-bottom: 6px;
+
+}
+.link {
+    text-decoration: none;
+    color: #4D4D4D;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 96%;
+    font-family: 'Titillium Web', 'Arimo', sans-serif;
+
+
+
+    border: 1px solid rgb(231, 231, 231);
+    padding: 5px;
+    margin-top: -1px;
+}
+.link:hover {
+     color: #638A58;
+     text-decoration: underline;
+}
+.link.noclick {
+    cursor: default;
+}
+.link.noclick:hover {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+.testOptionArea {
+    color: #656565;
+    font-size: 80%;
+    font-family: 'Titillium Web', 'Arimo', sans-serif;
+    height: 24px;
+    background: rgb(204, 209, 204);
+    padding-bottom: 2px;
+    border: 1px solid rgb(183, 190, 186);
+}
+.testOption {
+    display: block;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border: 0 solid rgb(183, 190, 186);
+    border-right-width: 1px;
+    height: 100%;
+    float: left;
+}
+.testOption:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

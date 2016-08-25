@@ -1,0 +1,61 @@
+
+
+
+/* BACKWARD COMPATIBLE */
+.viewHolder.mmResizable {
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: both;
+    padding: 10px;
+    position: relative;
+}
+.viewHolder.mmResizable>* {
+    resize: none;
+}
+
+
+
+
+.test_runner_ui {
+    font-family: 'Titillium Web', 'Arimo', sans-serif;
+}
+.test_runner_ui .column {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.test_runner_ui .column_content {
+    position: absolute;
+    top: 15px;
+    bottom: 47px;
+    padding: 10px;
+    overflow-y: auto;
+    left: 0; right: 0;
+}
+.test_runner_ui .all_modules_area_menu_area.menu_area {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    background-color: #638A58;
+    margin-top: -1px;
+    border-top-color: #F15A24;
+    border-top-style: solid;
+    border-top-width: 7px;
+}
+.test_runner_ui .header_bar_area {
+    position: absolute;
+    top: -6px;
+    height: 15px;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    margin-bottom: 1px;
+    background-color: #638A58;
+    border-bottom-color: #F15A24;
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+}

@@ -1,0 +1,14 @@
+<script type="text/javascript">
+parent.window.postMessage(JSON.parse(JSON.stringify(window.location)), '*');
+
+window.addEventListener('message',function(){
+	//remove Iframe
+	console.log('removing Iframe');
+	//should not do this as we will reauth every 90 minutes
+	parent.document.getElementById('loginframe').remove();
+
+},false);
+
+
+
+</script>

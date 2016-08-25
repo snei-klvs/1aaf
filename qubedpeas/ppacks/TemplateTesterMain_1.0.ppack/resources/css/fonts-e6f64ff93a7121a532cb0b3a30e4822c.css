@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alef Regular'), local('Alef-Regular'), url(fonts/Alef-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arimo'), url(fonts/Arimo.woff) format('woff');
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(fonts/TitilliumWeb-Regular.woff) format('woff');
+}
