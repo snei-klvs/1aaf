@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>OOH</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="0.00658536585 0.0138888889 18 0.0138888889 18 19 0.00658536585 19"></polyline>
+    </defs>
+    <g id="Chromecast-Flow-(iPad)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cast-Menu,-Not-Connected-(A,-B,-C,-D)--My-Shows" transform="translate(-902.000000, -30.000000)">
+            <g id="OOH" transform="translate(902.000000, 30.000000)">
+                <polyline id="Fill-1" fill="#FFFFFF" points="3.18292683 12.3843333 12.3292317 3.088 9.36581707 0.0138888889 1.20731707 8.19911111 3.10060976 8.19911111 3.18292683 12.3843333"></polyline>
+                <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-3"></g>
+                    <polyline id="Fill-2" fill="#FFFFFF" mask="url(#mask-2)" points="4.14329268 18.3472222 15.4756098 18.3472222 15.4756098 8.18055556 17.3414634 8.18055556 15.804878 6.59722222 4.14329268 18.3472222"></polyline>
+                    <polyline id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="0 17.625 1.35823171 19 18 2.31944444 16.6006098 0.902777778 0 17.625"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

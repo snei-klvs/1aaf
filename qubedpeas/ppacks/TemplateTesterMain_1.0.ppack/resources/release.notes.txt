@@ -1,0 +1,21 @@
+Version History
+--------------
+TemplateTesterMain_1.0.ppack
+2014-08-09 15:35:18
+m.maher
+2014-08*08 m.maher
+ADDED: onPass/onFail interface to the TestRunner.assert function
+ADDED: ".on" interface to the TestRunner.assert function with "pass"/true and "fail"/false
+CHANGED: Signature on TestRunner.message to be (message, testName) and allow for logging only if no test name sent
+
+2014-07-27 m.maher
+ADDED: Background patterns to UI templates
+
+2014-07-14 m.maher
+ADDED: New "assert" and "message" controls added to TestRunner for Templates to update their tester UI
+
+2014-06-17 m.maher
+CHANGE: Now remembering the last "isCollapsed" state of the tester window.
+CHANGE: Now remembering the last "selected tab" state of the tester window.
+CHANGE: No longer including "Test Runner" in the title of the window
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ppack viewer</title>
+	<style>
+		html, body, .ppack_area {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+<div class="ppack_area"></div>
+<script src="install-c5827ffc9364c733b57447ff01812541.js" fillSelector=".ppack_area" callback="packLoaded"></script>
+<script>
+	function packLoaded(vc) {
+		log("Pack loaded successfully");
+	}
+</script>
+</body>
+</html>
